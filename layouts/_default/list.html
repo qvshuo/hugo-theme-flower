@@ -1,0 +1,11 @@
+{{ define "main" }}
+    {{ partial "id.html" . }}
+    <ul id="articlelist">
+        {{ range where .Site.RegularPages "Section" "!=" "" }}
+        <li id="articles">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span id="listdate">{{ .Date.Format "2006/01/02" }}</span>
+        </li>
+        {{ end }}
+    </ul>
+{{ end }}

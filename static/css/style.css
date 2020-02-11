@@ -1,0 +1,114 @@
+body {
+  font-family: Optima, Candara, Calibri, Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+}
+
+hr {
+  border-style: solid;
+  color: #eeeeee;
+}
+
+a {
+  color: #FF80AB;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF80AB;
+  text-shadow: 0 0 0.5px #FF80AB;
+  text-decoration: none
+  -moz-transition: 250ms;
+  -webkit-transition: 250ms;
+  -o-transition: 250ms;
+}
+
+#header {
+  text-align: right;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#home {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+#about {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+#avatar {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#avatar img {
+  width: 5rem;
+  height: 5rem;
+  border-radius:5rem;
+}
+
+#nickname {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #222;
+  text-align: center;
+}
+
+#bio {
+  font-size: 1rem;
+  font-weight: normal;
+  color:  #aaa;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+#articlelist {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#articles {
+  line-height: 2.5rem;
+  list-style: none;
+}
+
+#articles a {
+  font-weight: bold;
+}
+
+#listdate {
+  float: right;
+  color: #aaa;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#singletitle {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #222;
+  text-align: center;
+}
+
+#singledate {
+  color: #aaa;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.main p {
+  color: #444;
+}
