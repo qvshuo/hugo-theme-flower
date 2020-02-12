@@ -10,7 +10,7 @@ body {
 
 hr {
   border-style: solid;
-  color: #eee;
+  color: #f6f6f6;
 }
 
 a {
@@ -29,15 +29,11 @@ a:hover {
 
 h1 {
   color: #222;
+  text-align: center;
 }
 
-h2 {
+h2, h3, h4, h5, h6 {
   color: #333;
-}
-
-
-p {
-  color: #555;
 }
 
 strong {
@@ -46,7 +42,11 @@ strong {
   padding-right: 0.25rem;
 }
 
-img {
+p {
+  color: #555;
+}
+
+img, iframe, video {
   max-width: 80%;
   margin-left: auto; 
   margin-right:auto; 
@@ -55,6 +55,56 @@ img {
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+blockquote, pre {
+  border-top: 0.1rem solid #eeeeee;
+  border-bottom: 0.1rem solid #eeeeee;
+  border-left: 0.25rem solid #FF80AB;
+  border-right: 0.1rem solid #eeeeee;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+code {
+  background: #f6f6f6;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 0.85rem;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+}
+
+#content ul, ol {
+  border-top: 0.1rem solid #eeeeee;
+  border-bottom: 0.1rem solid #eeeeee;
+  border-left: 0.25rem solid #FF80AB;
+  border-right: 0.1rem solid #eeeeee;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+table {
+  border-top: 0.1rem solid #eeeeee;
+  border-bottom: 0.1rem solid #eeeeee;
+  border-left: 0.25rem solid #FF80AB;
+  border-right: 0.1rem solid #eeeeee;
+}
+
+th, td {
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 #header {
@@ -134,10 +184,6 @@ img {
 }
 
 #singletitle {
-  font-weight: bold;
-  font-size: 2rem;
-  color: #222;
-  text-align: center;
   padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
