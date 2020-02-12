@@ -1,12 +1,16 @@
+html {
+  font-size:16px;
+}
+
 body {
   font-family: Optima, Candara, Calibri, Arial, sans-serif;
-  max-width: 800px;
+  max-width: 40rem;
   margin: auto;
 }
 
 hr {
   border-style: solid;
-  color: #eeeeee;
+  color: #eee;
 }
 
 a {
@@ -23,10 +27,42 @@ a:hover {
   -o-transition: 250ms;
 }
 
+h1 {
+  color: #222;
+}
+
+h2 {
+  color: #333;
+}
+
+
+p {
+  color: #555;
+}
+
+strong {
+  color: #444;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+img {
+  max-width: 80%;
+  margin-left: auto; 
+  margin-right:auto; 
+  display:block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 #header {
   text-align: right;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #home {
@@ -40,7 +76,6 @@ a:hover {
 }
 
 #avatar {
-  text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -80,6 +115,7 @@ a:hover {
 }
 
 #articles a {
+  font-size: 1.05rem;
   font-weight: bold;
 }
 
@@ -90,8 +126,11 @@ a:hover {
 
 #footer {
   text-align: center;
+  line-height: 1.5rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #singletitle {
@@ -99,16 +138,22 @@ a:hover {
   font-size: 2rem;
   color: #222;
   text-align: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  line-height: 2.5rem;
 }
 
 #singledate {
   color: #aaa;
   font-size: 1.25rem;
   text-align: center;
-  margin-top: 0.75rem;
-  margin-bottom: 1.5rem;
+  line-height: 2rem;
 }
 
-.main p {
-  color: #444;
+#content {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1.75rem;
 }
