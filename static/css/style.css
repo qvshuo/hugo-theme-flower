@@ -36,13 +36,8 @@ h2, h3, h4, h5, h6 {
   color: #333;
 }
 
-strong {
+strong, em {
   color: #444;
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
-em {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
 }
