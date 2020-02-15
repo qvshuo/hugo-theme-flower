@@ -42,6 +42,11 @@ strong {
   padding-right: 0.25rem;
 }
 
+em {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 p {
   color: #555;
 }
