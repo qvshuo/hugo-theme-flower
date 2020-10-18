@@ -1,2 +1,2 @@
-# hugo-theme-Flower
+# hugo-theme-flower
 A simple hugo theme.

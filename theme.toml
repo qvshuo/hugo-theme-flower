@@ -1,11 +1,11 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Flower"
+name = "hugo-theme-flower"
 license = "MIT"
-licenselink = "https://github.com/qvshuo/hugo-theme-Flower/blob/master/LICENSE"
+licenselink = "https://github.com/qvshuo/hugo-theme-flower/blob/master/LICENSE"
 description = "A simple hugo theme."
-homepage = "https://github.com/qvshuo/hugo-theme-Flower"
+homepage = "https://github.com/qvshuo/hugo-theme-flower"
 tags = []
 features = []
 min_version = "0.41"
