@@ -8,7 +8,7 @@ description = "A simple hugo theme."
 homepage = "https://github.com/qvshuo/hugo-theme-flower"
 tags = []
 features = []
-min_version = "0.41"
+min_version = "0.01"
 
 [author]
   name = "杨蕙芷"
