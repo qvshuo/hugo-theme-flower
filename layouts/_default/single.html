@@ -1,11 +1,9 @@
 {{ define "main" }}
-    <h1 id="singletitle">{{ .Title }}</h1>
-    {{ if (gt .Params.date 0) }}
-        <div id="singledate">
-            {{ .Date.Format "2006/01/02" }}
-        </div>
-    {{ end }}
-    <div id="content">
+    <h1 class="singletitle">{{ .Title }}</h1>
+    <div class="singledate">
+        {{ .Date.Format "2006/01/02" }}
+    </div>
+    <div class="content">
         {{ .Content }}
     </div>
 {{ end }}

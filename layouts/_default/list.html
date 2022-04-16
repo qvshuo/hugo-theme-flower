@@ -1,10 +1,10 @@
 {{ define "main" }}
-    {{ partial "id.html" . }}
-    <ul id="articlelist">
+    {{ partial "bio.html" . }}
+    <ul class="articlelist">
         {{ range where .Site.RegularPages "Section" "!=" "" }}
-        <li id="articles">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            <span id="listdate">{{ .Date.Format "2006/01/02" }}</span>
+        <li class="article">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <span class="date">{{ .Date.Format "2006/01/02" }}</span>
         </li>
         {{ end }}
     </ul>
