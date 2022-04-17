@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=IBM+Plex+Mono&family=Noto+Serif+SC&display=swap');
 
 html {
-  font-size:16px;
+  font-size: 16px;
 }
 
 body {
@@ -30,14 +30,9 @@ h1 {
   text-align: center;
 }
 
-h2 {
+h2, h3 {
   color: #000000;
-  font-size: 1.25rem;
-}
-
-h3 {
-  color: #000000;
-  font-size: 1.05rem;
+  font-size: 1.275rem;
 }
 
 h4, h5, h6 {
@@ -63,9 +58,9 @@ img, iframe, video {
 }
 
 blockquote {
-  margin: 1.25rem 1rem;
+  margin: 1.25rem 0;
   padding-left: 1rem;
-  border-inline-start: 0.225rem solid #000000;
+  border-left: 0.225rem solid #000000;
 }
 
 pre {
@@ -114,6 +109,8 @@ hr {
   margin: 2.5rem 0;
 }
 
+
+
 .header {
   height: 3.75rem;
   padding: 0 1rem;
@@ -143,7 +140,7 @@ hr {
   max-width: 47.5rem;
   margin: auto;
   padding: 0 1rem;
-  line-height: 2rem;  
+  line-height: 1.75rem;  
 }
 
 .bio {
@@ -180,7 +177,7 @@ hr {
   margin-right: 0.75rem;
 }
 
-ul, li {
+.articlelist, .article {
   margin: 0;
   padding: 0;
 }
