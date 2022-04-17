@@ -10,10 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=IBM+Plex+Mono&family=Noto+Serif+SC&display=swap" rel="stylesheet"> 
     <body>
-        {{ partial "header.html" . }}
-        <div class="main">
-        {{ block "main" . }}
-        {{ end }}
+        <div class="container">
+            {{ partial "header.html" . }}
+            <div class="main">
+            {{ block "main" . }}
+            {{ end }}
+            </div>
         </div>
         {{ partial "footer.html" . }}
     </body>

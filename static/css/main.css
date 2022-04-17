@@ -9,6 +9,9 @@ body {
   font-family: 'EB Garamond', 'Noto Serif SC', serif;
   max-width: 67.5rem;
   margin: auto;
+  display: flex; 
+  flex-flow: column; 
+  min-height: 100vh;
 }
 
 a {
@@ -113,6 +116,10 @@ ul {
   padding-left: 2rem;
 }
 
+.container {
+  flex: 1;
+}
+
 .header {
   height: 3.75rem;
   padding: 0 1rem;
@@ -204,6 +211,7 @@ ul {
 }
 
 .footer {
+  flex: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
