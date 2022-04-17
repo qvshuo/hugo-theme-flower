@@ -1,5 +1,5 @@
 # hugo-theme-flower
 
-A simple hugo theme. Inspired by [PaperMod](https://adityatelange.github.io/hugo-PaperMod/https://adityatelange.github.io/hugo-PaperMod/).
+A simple hugo theme. 
 
-![hugo-theme-flower.png](https://s2.loli.net/2022/04/17/E7wmYSksItbQPDv.png)
+![hugo-theme-flower.png](https://raw.githubusercontent.com/qvshuo/hugo-theme-flower/main/static/screenshots/hugo-theme-flower.png)
