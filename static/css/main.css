@@ -33,9 +33,14 @@ h2 {
   font-size: 1.25rem;
 }
 
-h3, h4, h5, h6 {
+h3 {
   color: #000000;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
+}
+
+h4, h5, h6 {
+  color: #000000;
+  font-size: 1rem;
 }
 
 strong, em {
@@ -70,7 +75,7 @@ pre {
 }
 
 code {
-  background-color: #f4f4f4;
+  background-color: #fafafa;
   border-radius: 0.25rem;
   padding: 0.25rem;
   color: #0d0d0d;
@@ -87,7 +92,8 @@ table {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin: 1.25rem 0;
-  background-color: #f4f4f4;
+  background-color: #0d0d0d;
+  color: #fafafa;
   border-radius: 0.5rem;
 }
 
@@ -98,6 +104,10 @@ th, td {
   padding-bottom: 0.25rem;
 }
 
+hr {
+  color: #fafafa;
+  margin: 3.5rem 1.5rem;
+}
 
 .header {
   height: 3.75rem;
@@ -145,9 +155,8 @@ th, td {
 }
 
 .bio .description {
-  padding-top: 1.25rem;
-  padding-bottom: 1.5rem;
-  font-size: 1.05rem;
+  padding: 1.15rem 0;
+  font-size: 1.025rem;
   color: #6c6c6c;
   line-height: 1.5rem;
 }
@@ -173,7 +182,7 @@ ul, li {
 
 .articlelist .article {
   list-style: none;
-  height: 5.5rem;
+  height: 5.775rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -181,12 +190,12 @@ ul, li {
 }
 
 .articlelist .article a {
-  font-size: 1.25rem;
+  font-size: 1.225rem;
 }
 
 .articlelist .article .date {
   line-height: 1.5rem;
-  font-size: 0.95rem;
+  font-size: 0.925rem;
   color: #6c6c6c;
 }
 
@@ -201,15 +210,16 @@ ul, li {
 }
 
 .singletitle {
-  padding-top: 5rem;
+  padding-top: 4.5rem;
 }
 
 .singledate {
   text-align: center;
   font-size: 1.05rem;
   color: #6c6c6c;
+  line-height: 0.5rem;
 }
 
 .content {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
