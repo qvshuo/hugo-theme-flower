@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=IBM+Plex+Mono&family=Noto+Serif+SC&display=swap');
+
 html {
   font-size:16px;
 }
 
 body {
   background-color: #ffffff;
-  font-family: Optima, Candara, Calibri, Arial, sans-serif;
+  font-family: 'EB Garamond', 'Noto Serif SC', serif;
   max-width: 67.5rem;
   margin: auto;
 }
@@ -61,9 +63,9 @@ img, iframe, video {
 }
 
 blockquote {
-  margin: 1.25rem 0;
-  padding: 0 1rem;
-  border-inline-start: 0.25rem solid #000000;
+  margin: 1.25rem 1rem;
+  padding-left: 1rem;
+  border-inline-start: 0.225rem solid #000000;
 }
 
 pre {
@@ -79,11 +81,12 @@ code {
   border-radius: 0.25rem;
   padding: 0.25rem;
   color: #0d0d0d;
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 0.85rem;
 }
 
 pre code {
+  padding-left: 0;
   background-color: #0d0d0d;
   color: #d0d0d0;
 }
@@ -211,13 +214,16 @@ ul, li {
 
 .singletitle {
   padding-top: 4.5rem;
+  line-height: 2.5rem;
+  max-width: 85%;
+  margin: auto;
 }
 
 .singledate {
   text-align: center;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   color: #6c6c6c;
-  line-height: 0.5rem;
+  line-height: 2.5rem;
 }
 
 .content {
