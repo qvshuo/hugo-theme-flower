@@ -60,7 +60,7 @@ img, iframe, video {
 blockquote {
   margin: 1.25rem 0;
   padding-left: 1rem;
-  border-left: 0.225rem solid #000000;
+  border-left: 0.175rem solid #000000;
 }
 
 pre {
@@ -109,7 +109,9 @@ hr {
   margin: 2.5rem 0;
 }
 
-
+ul {
+  padding-left: 2rem;
+}
 
 .header {
   height: 3.75rem;
