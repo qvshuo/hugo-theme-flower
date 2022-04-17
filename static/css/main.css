@@ -19,7 +19,7 @@ a {
 
 a:hover {
   color: #000000;
-  text-shadow: 0 0 1px #000000;
+  text-shadow: 0 0 0.075rem #000000;
   text-decoration: none;
   transition: 250ms;
 }
@@ -77,7 +77,7 @@ pre {
 }
 
 code {
-  background-color: #fafafa;
+  background-color: #f3f3f3;
   border-radius: 0.25rem;
   padding: 0.25rem;
   color: #0d0d0d;
@@ -88,7 +88,7 @@ code {
 pre code {
   padding-left: 0;
   background-color: #0d0d0d;
-  color: #d0d0d0;
+  color: #f3f3f3;
 }
 
 table {
@@ -96,7 +96,7 @@ table {
   padding-bottom: 0.5rem;
   margin: 1.25rem 0;
   background-color: #0d0d0d;
-  color: #fafafa;
+  color: #f3f3f3;
   border-radius: 0.5rem;
 }
 
@@ -108,8 +108,10 @@ th, td {
 }
 
 hr {
-  color: #fafafa;
-  margin: 3.5rem 1.5rem;
+  border: 0;
+  padding-top: 0.075rem;
+  background-color: #f3f3f3;
+  margin: 2.5rem 0;
 }
 
 .header {
