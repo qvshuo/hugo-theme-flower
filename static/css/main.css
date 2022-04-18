@@ -5,13 +5,13 @@ html {
 }
 
 body {
-  background-color: #ffffff;
-  font-family: 'EB Garamond', 'Noto Serif SC', serif;
   max-width: 67.5rem;
   margin: auto;
   display: flex; 
   flex-flow: column; 
   min-height: 100vh;
+  background-color: #ffffff;
+  font-family: 'EB Garamond', 'Noto Serif SC', serif;
 }
 
 a {
@@ -21,9 +21,7 @@ a {
 }
 
 a:hover {
-  color: #000000;
   text-shadow: 0 0 0.075rem #000000;
-  text-decoration: none;
   transition: 250ms;
 }
 
@@ -33,14 +31,29 @@ h1 {
   text-align: center;
 }
 
-h2, h3 {
+h2 {
   color: #000000;
-  font-size: 1.275rem;
+  font-size: 1.25rem;
 }
 
-h4, h5, h6 {
+h3 {
   color: #000000;
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+h4 {
+  color: #000000;
+  font-size: 1.15rem;
+}
+
+h5 {
+  color: #000000;
+  font-size: 1.1rem;
+}
+
+h6 {
+  color: #000000;
+  font-size: 1.05rem;
 }
 
 strong, em {
@@ -53,11 +66,9 @@ p {
 
 img, iframe, video {
   display: block;
-  max-width: 100%;
-  margin-left: auto; 
-  margin-right: auto; 
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  width: 100%;
+  margin: auto;
+  padding: 1rem 0;
 }
 
 blockquote {
@@ -70,7 +81,7 @@ pre {
   background-color: #0d0d0d;
   border-radius: 0.5rem;
   margin: 1rem 0;
-  padding: 0.75rem 1rem;
+  padding: 0.725rem;
   overflow-x: auto;
 }
 
@@ -84,25 +95,22 @@ code {
 }
 
 pre code {
-  padding-left: 0;
+  padding: 0;
   background-color: #0d0d0d;
   color: #f3f3f3;
 }
 
 table {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  margin: 1.25rem 0;
   background-color: #0d0d0d;
-  color: #f3f3f3;
   border-radius: 0.5rem;
+  color: #f3f3f3;
+  padding: 0.725rem;
+  width: 100%;
 }
 
-th, td {
-  padding-left: 2rem;
-  padding-right: 1rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+th {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.075rem solid #6c6c6c;
 }
 
 hr {
@@ -115,6 +123,7 @@ hr {
 ul {
   padding-left: 2rem;
 }
+
 
 .container {
   flex: 1;
@@ -131,7 +140,6 @@ ul {
 
 .header .left {
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .header .right {
@@ -157,7 +165,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  align-items: flex-start;
 }
 
 .bio .nickname {
@@ -166,10 +174,9 @@ ul {
 }
 
 .bio .description {
-  padding: 1.15rem 0;
+  line-height: 3.725rem;
   font-size: 1.025rem;
   color: #6c6c6c;
-  line-height: 1.5rem;
 }
 
 .bio .social-icons {
@@ -197,11 +204,11 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  align-items: flex-start;
 }
 
 .articlelist .article a {
-  font-size: 1.225rem;
+  font-size: 1.25rem;
 }
 
 .articlelist .article .date {
@@ -217,14 +224,13 @@ ul {
   justify-content: space-around;
   align-items: center;
   height: 3.5rem;
-  margin-top: 5rem;
   margin-bottom: 0.75rem;
 }
 
 .singletitle {
   padding-top: 4.5rem;
   line-height: 2.5rem;
-  max-width: 85%;
+  width: 95%;
   margin: auto;
 }
 
@@ -236,5 +242,5 @@ ul {
 }
 
 .content {
-  margin-top: 5rem;
+  margin: 5rem 0;
 }
